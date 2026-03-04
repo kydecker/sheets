@@ -38,10 +38,8 @@ export function sheetsLoader(): Loader {
 
           const baseName = lyFile.replace(/\.ly$/, "");
           const pdfFile = `${baseName}.pdf`;
-          const midiFile = `${baseName}.midi`;
 
           const hasPdf = files.includes(pdfFile);
-          const hasMidi = files.includes(midiFile);
 
           if (!hasPdf) continue;
 
@@ -64,7 +62,6 @@ export function sheetsLoader(): Loader {
           const pngUrls = pngFiles.map((f) => `${sheetBase}/${f}`);
 
           const pdfUrl = `${sheetBase}/${pdfFile}`;
-          const midiUrl = hasMidi ? `${sheetBase}/${midiFile}` : undefined;
 
           const data = {
             title,
@@ -72,7 +69,6 @@ export function sheetsLoader(): Loader {
             folderName,
             baseName,
             pdfUrl,
-            ...(midiUrl && { midiUrl }),
             pngUrls,
           };
 
