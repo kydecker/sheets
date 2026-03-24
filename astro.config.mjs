@@ -2,7 +2,7 @@ import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://sheets.eva.town",
+  site: "https://sheets.ky.fyi",
   devToolbar: {
     enabled: false,
   },

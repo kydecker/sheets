@@ -6,7 +6,7 @@
   title    = "Star Trek: Voyager"
   subtitle = \markup { \medium "Title Theme" }
   composer = "Jerry Goldsmith"
-  arranger = "Arr. Eva Decker"
+  arranger = "Arr. Ky Decker"
   tagline = ##f
 }
 

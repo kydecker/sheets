@@ -1,6 +1,6 @@
 # Sheets
 
-This respository is a collection of sheet music that I ([Eva Decker](https://eva.town)) arranged and typeset for solo piano.
+This respository is a collection of sheet music that I ([Ky Decker](https://ky.fyi)) arranged and typeset for solo piano.
 
 Sheets are written using [LilyPond](https://lilypond.org/), a text-based music engraving language.
 
